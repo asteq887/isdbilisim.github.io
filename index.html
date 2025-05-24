@@ -1,11 +1,170 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>ISD Bilişim</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ISD Bilişim - Güvenlik Sistemleri</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #0d47a1;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #1565c0;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    footer {
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      text-decoration: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+      border-radius: 10px;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-  <h1>ISD Bilişim'e Hoş Geldiniz!</h1>
-  <p>Web sitemiz yayında.</p>
+
+  <a href="https://wa.me/90xxxxxxxxxx" class="whatsapp-float" target="_blank" title="WhatsApp ile İletişim">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <header>
+    <h1>ISD Bilişim</h1>
+    <p>Güvenlik Kameraları | Alarm Sistemleri | Bilgisayar Onarımı</p>
+  </header>
+
+  <nav>
+    <a href="#hakkimizda">Hakkımızda</a>
+    <a href="#hizmetler">Hizmetler</a>
+    <a href="#referanslar">Referanslar</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+
+  <section id="hakkimizda">
+    <div class="card">
+      <h2>Hakkımızda</h2>
+      <p>ISD Bilişim, Çorlu'da güvenlik kamera sistemleri, alarm çözümleri ve bilgisayar bakım-onarımı alanlarında profesyonel hizmet sunar. Sanayi tesisleri ve işletmelere özel çözümlerimizle güvenliğinizi sağlıyoruz.</p>
+    </div>
+  </section>
+
+  <section id="hizmetler">
+    <div class="card">
+      <h2>Hizmetlerimiz</h2>
+      <ul>
+        <li>🔒 Güvenlik Kamera Sistemi Kurulumu</li>
+        <li>🚨 Alarm Sistemleri</li>
+        <li>🖥️ Bilgisayar Bakım ve Onarımı</li>
+        <li>🏭 Sanayi Kuruluşlarına Özel Güvenlik Çözümleri</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="referanslar">
+    <div class="card">
+      <h2>Referanslarımız</h2>
+      <ul>
+        <li>ABC Tekstil Sanayi</li>
+        <li>XYZ Gıda Fabrikası</li>
+        <li>Çorlu Otomotiv</li>
+        <li>Beta Bilişim</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="galeri">
+    <div class="card">
+      <h2>Kurulumdan Görseller</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/300x200?text=Kamera+Kurulumu+1" alt="Kurulum 1">
+        <img src="https://via.placeholder.com/300x200?text=Kamera+Kurulumu+2" alt="Kurulum 2">
+        <img src="https://via.placeholder.com/300x200?text=Server+Bakımı" alt="Bakım">
+      </div>
+    </div>
+  </section>
+
+  <section id="iletisim">
+    <div class="card">
+      <h2>İletişim Bilgileri</h2>
+      <p><strong>Adres:</strong> Cemaliye Mah. Saray Cad. No:2 Ersözler İş Merkezi Çorlu / Tekirdağ</p>
+      <p><strong>Telefon:</strong> <a href="tel:+90xxxxxxxxxx">+90 xxx xxx xx xx</a></p>
+      <p><strong>E-Posta:</strong> <a href="mailto:info@isdbilisim.com">info@isdbilisim.com</a></p>
+    </div>
+    <div class="card">
+      <h2>Konum</h2>
+      <iframe src="https://maps.google.com/maps?q=Cemaliye%20Mah.%20Saray%20Cad.%20No:2%20%C3%87orlu&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 ISD Bilişim - Tüm hakları saklıdır.
+  </footer>
+
 </body>
 </html>
