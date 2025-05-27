@@ -1,1 +1,0 @@
-# isdbilisim.github.io
